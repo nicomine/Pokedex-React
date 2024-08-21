@@ -7,10 +7,11 @@ export function SearchBar({
   classNameInput,
   classNameButton,
   isLoading,
+  value
 }) {
   return (
     <div>
-      <input type={type} onChange={onChange} className={classNameInput} />
+      <input type={type} onChange={onChange} className={classNameInput} value={value || ""} />
       <button onClick={onClick} disabled={isLoading} className={classNameButton}>
         🔍
       </button>

@@ -3,12 +3,16 @@ import { useState } from "react";
 import { Pokedex } from "./pages/pokedex";
 
 import "./App.css";
+import { PokemonProvider } from "./context/PokemonContext";
+import { FavoritePokemon } from "./pages/FavoritePokemons";
 
 function App() {
   return (
-    <div className="app-container">
-    <Pokedex />
-    </div>
+    <PokemonProvider>
+      <div className="app-container">
+        <Pokedex />
+      </div>
+    </PokemonProvider>
   );
 }
 
