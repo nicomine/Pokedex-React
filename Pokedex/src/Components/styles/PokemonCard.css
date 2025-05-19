@@ -1,13 +1,7 @@
 .card-pokedex {
-  background: rgb(242, 242, 242);
-  background: linear-gradient(
-    0deg,
-    rgba(135, 135, 135, 1) 0%,
-    rgba(249, 249, 249, 1) 49%,
-    rgba(147, 147, 147, 1) 100%
-  );
+ 
   color: rgba(0, 0, 0, 0.7);
-  width: 20rem;
+  width: 25rem;
   height: 30rem;
   display: flex;
   flex-direction: column;
@@ -17,15 +11,15 @@
   font-size: 20px;
   overflow: auto;
 
-  -webkit-box-shadow: 0px 0px 17px 5px rgba(201, 58, 58, 1);
+  /* -webkit-box-shadow: 0px 0px 17px 5px rgba(201, 58, 58, 1);
   -moz-box-shadow: 0px 0px 17px 5px rgba(201, 58, 58, 1);
-  box-shadow: 0px 0px 17px 5px rgba(201, 58, 58, 1);
+  box-shadow: 0px 0px 17px 5px rgba(201, 58, 58, 1); */
 
   align-self: center;
   margin-top: 5rem;
 }
 
 .card-image {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
